@@ -1,0 +1,33 @@
+body {
+    background-color: #262626;
+}
+
+/* navbar styling */
+nav {
+    background-color: #922D2D;
+}
+
+.nav-link {
+    color: whitesmoke;
+}
+
+.dropdown-menu {
+    background-color: #922D2D;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.dropdown-item {
+    color: whitesmoke;
+}
+
+/* Scroll bar track (background) */
+.dropdown-menu::-webkit-scrollbar-track {
+    background: red !important; /* Background color of the scroll bar track */
+}
+
+/* Scroll bar handle */
+.dropdown-menu::-webkit-scrollbar-thumb {
+    background: blue; /* Color of the scroll bar handle */
+    border-radius: 10px; /* Rounded corners for the handle */
+}
