@@ -2,6 +2,10 @@ body {
     background-color: #262626;
 }
 
+.maroon-row {
+  background-color: #922D2D;
+}
+
 /* navbar styling */
 nav {
     background-color: #922D2D;
