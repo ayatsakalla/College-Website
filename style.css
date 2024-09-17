@@ -20,14 +20,6 @@ nav {
 .dropdown-item {
     color: whitesmoke;
 }
+/* end of nav styling */
 
-/* Scroll bar track (background) */
-.dropdown-menu::-webkit-scrollbar-track {
-    background: red !important; /* Background color of the scroll bar track */
-}
-
-/* Scroll bar handle */
-.dropdown-menu::-webkit-scrollbar-thumb {
-    background: blue; /* Color of the scroll bar handle */
-    border-radius: 10px; /* Rounded corners for the handle */
-}
+/* title styling */
