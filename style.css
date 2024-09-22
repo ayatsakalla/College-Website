@@ -30,18 +30,9 @@ nav {
 
 .dropdown-menu {
     background-color: #922D2D;
-    max-height: 300px;
+    max-height: 200px;
     overflow-y: scroll;
-}
-
-.dropdown-menu::-webkit-scrollbar-track {
-  background: red;
-  /* Color of the track */
-}
-
-.dropdown-menu::-webkit-scrollbar-thumb {
-  background: blue;
-  /* Color of the scrollbar thumb */
+    scrollbar-color: #262626 #922D2D;
 }
 
 .dropdown-item {
