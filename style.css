@@ -6,6 +6,19 @@ body {
   background-color: #922D2D;
 }
 
+/* fonts start */
+
+/* GoBold */
+@font-face {
+  font-family: 'Gobold';
+  src: url("fonts/Gobold\ Bold.otf");
+}
+
+.goBold {
+  font-family: 'Gobold';
+}
+/* fonts end */
+
 /* navbar styling */
 nav {
     background-color: #922D2D;
@@ -19,6 +32,16 @@ nav {
     background-color: #922D2D;
     max-height: 300px;
     overflow-y: scroll;
+}
+
+.dropdown-menu::-webkit-scrollbar-track {
+  background: red;
+  /* Color of the track */
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb {
+  background: blue;
+  /* Color of the scrollbar thumb */
 }
 
 .dropdown-item {
@@ -38,7 +61,7 @@ nav {
   .navbar-toggler,
   .navbar-toggler:focus,
   .navbar-toggler:active,
-  .navbar-toggler-icon: focus {
+  .navbar-toggler-icon:focus {
     outline: none;
     box-shadow: none;
     border: 0px;
@@ -114,6 +137,18 @@ nav {
   }
   /* END OF HAMBURGER ICON */
 /* hamburger icon end */
+
 /* end of nav styling */
 
 /* title styling */
+.njitTitle {
+  font-size: 4vw;
+}
+
+.engineeringTitle {
+  margin-top: 15%;
+  padding: 10px;
+  background-color: #922D2D;
+  transform: rotate(12deg);
+  font-size: 4vw;
+}
