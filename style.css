@@ -155,6 +155,7 @@ nav {
   margin-bottom: 5%;
 }
 
+/* typing animation start */
 .cont-text {
   height: 100%;
   width: 100%;
@@ -170,6 +171,7 @@ nav {
 }
 
 /* typing animation end */
+
 /* end of title styling */
 
 /* majors/facilities start */
@@ -192,7 +194,10 @@ nav {
   margin-top:3%;
 }
 /* testimonials end */
+
+/* alumni start */
 .card-body {
   background-color: #922D2D;
   color: whitesmoke;
 }
+/* alumni end */
