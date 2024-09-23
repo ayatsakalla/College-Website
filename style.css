@@ -152,6 +152,7 @@ nav {
   background-color: #922D2D;
   transform: rotate(12deg);
   font-size: 4vw;
+  margin-bottom: 5%;
 }
 
 .cont-text {
@@ -190,4 +191,8 @@ nav {
   height: fit-content;
   margin-top:3%;
 }
-/* testimonials end *
+/* testimonials end */
+.card-body {
+  background-color: #922D2D;
+  color: whitesmoke;
+}
