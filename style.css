@@ -17,6 +17,16 @@ body {
 .goBold {
   font-family: 'Gobold';
 }
+
+/* champagne & limos */
+@font-face {
+  font-family: 'champagne';
+  src: url("fonts/Champagne\ &\ Limousines.ttf");
+}
+
+.champagne {
+  font-family: 'champagne';
+}
 /* fonts end */
 
 /* navbar styling */
@@ -143,6 +153,22 @@ nav {
   transform: rotate(12deg);
   font-size: 4vw;
 }
+
+.cont-text {
+  height: 100%;
+  width: 100%;
+}
+
+.typed-cursor {
+  color: whitesmoke;
+  font-family: 'champagne';
+}
+
+.firsty {
+  color: whitesmoke;
+}
+
+/* typing animation end */
 /* end of title styling */
 
 /* majors/facilities start */
@@ -156,3 +182,12 @@ nav {
   font-size: 2vw;
 }
 /* majors/facilities end */
+
+/* testimonials start*/
+.test {
+  background-color: #922D2D;
+  width: fit-content;
+  height: fit-content;
+  margin-top:3%;
+}
+/* testimonials end *
