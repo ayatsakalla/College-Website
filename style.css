@@ -143,3 +143,16 @@ nav {
   transform: rotate(12deg);
   font-size: 4vw;
 }
+/* end of title styling */
+
+/* majors/facilities start */
+.majorsBg {
+  background-color: #922D2D;
+  width: fit-content;
+  height: fit-content;
+}
+
+.stupid {
+  font-size: 2vw;
+}
+/* majors/facilities end */
