@@ -51,91 +51,91 @@ nav {
 
 /* hamburger icon start */
 .navbar-toggler {
-    width: 40px;
-    height: 40px;
-    position: relative;
-    transition: .5s ease-in-out;
-    border: 0px;
-    outline: none;
-  }
-  
-  .navbar-toggler,
-  .navbar-toggler:focus,
-  .navbar-toggler:active,
-  .navbar-toggler-icon:focus {
-    outline: none;
-    box-shadow: none;
-    border: 0px;
-  }
-  
-  .navbar-toggler span{
-    margin: 0px;
-    padding: 0px;
-  }
-  
-  .toggler-icon-nav {
-    display: block;
-    position: absolute;
-    height: 12%;
-    width: 100%;
-    background: whitesmoke;
-    border-radius: 10px;
-    opacity: 1;
-    left: 0;
-    transform: rotate(0deg);
-    transition: .25s ease-in-out;
-  }
-  
-  .middle-bar-ind{
-    margin-top: 0px;
-  }
-  
-  /* when clicked */
-  
-  .navbar-toggler .top-bar-ind {
-    margin-top: 0px;
-    transform: rotate(135deg);
-  }
-  
-  .navbar-toggler .middle-bar-ind {
-    opacity: 0;
-    filter: alpha(opacity=0);
-  }
-  
-  .navbar-toggler .bottom-bar-ind {
-    margin-top: 0px;
-    transform: rotate(-135deg);
-  }
-  
-  /* when nav is collapsed */
-  
-  .navbar-toggler.collapsed .top-bar-ind {
-    margin-top: -15px;
-    transform: rotate(0deg);
-    background-color: whitesmoke;
-    border-radius: 10px;
-  }
-  
-  .navbar-toggler.collapsed .middle-bar-ind{
-    opacity: 1;
-    filter: alpha(opacity=100);
-    background-color: whitesmoke;
-    border-radius: 10px;
-  }
-  
-  .navbar-toggler.collapsed .bottom-bar-ind {
-    margin-top: 15px;
-    transform: rotate(0deg);
-    background-color: whitesmoke;
-    border-radius: 10px;
-  }
-  
-  .navbar-toggler:focus,
-  .navbar-toggler:active,
-  .navbar-toggler-icon: focus {
-      outline: none;
-      box-shadow: none;
-  }
+  width: 40px;
+  height: 40px;
+  position: relative;
+  transition: .5s ease-in-out;
+  border: 0px;
+  outline: none;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon: focus {
+  outline: none;
+  box-shadow: none;
+  border: 0px;
+}
+
+.navbar-toggler span {
+  margin: 0px;
+  padding: 0px;
+}
+
+.toggler-icon-nav {
+  display: block;
+  position: absolute;
+  height: 12%;
+  width: 100%;
+  background: whitesmoke;
+  border-radius: 10px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: .25s ease-in-out;
+}
+
+.middle-bar-ind {
+  margin-top: 0px;
+}
+
+/* when clicked */
+
+.navbar-toggler .top-bar-ind {
+  margin-top: 0px;
+  transform: rotate(135deg);
+}
+
+.navbar-toggler .middle-bar-ind {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar-ind {
+  margin-top: 0px;
+  transform: rotate(-135deg);
+}
+
+/* when nav is collapsed */
+
+.navbar-toggler.collapsed .top-bar-ind {
+  margin-top: -15px;
+  transform: rotate(0deg);
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.navbar-toggler.collapsed .middle-bar-ind {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.navbar-toggler.collapsed .bottom-bar-ind {
+  margin-top: 15px;
+  transform: rotate(0deg);
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
   /* END OF HAMBURGER ICON */
 /* hamburger icon end */
 
